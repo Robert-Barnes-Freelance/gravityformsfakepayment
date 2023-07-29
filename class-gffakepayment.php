@@ -4,7 +4,7 @@ GFForms::include_payment_addon_framework();
 
 class GFFakePayment extends GFPaymentAddOn {
 
-    protected $_version = GF_THANKQ_ADDON_VERSION;
+    protected $_version = GF_FAKEPAYMENT_ADDON_VERSION;
     protected $_min_gravityforms_version = '1.9.16';
     protected $_slug = 'gravityformsfakepayment';
     protected $_path = 'gravityformsfakepayment/gravityformsfakepayment.php';
